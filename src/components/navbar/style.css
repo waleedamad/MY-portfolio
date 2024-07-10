@@ -1,0 +1,25 @@
+/* Ensure you include this CSS in your style.css file */
+
+li {
+    position: relative;
+    transition: color 0.3s; /* Optional: to also transition text color */
+    text-decoration: none;
+  }
+  
+  li::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: yellow;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: width 0.3s; /* Transition for the width of the underline */
+  }
+  
+  li:hover::after {
+    width: 70%; /* Full width on hover */
+  }
+  
+ 
+  

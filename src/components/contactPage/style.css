@@ -1,0 +1,11 @@
+
+.button-gradient:hover {
+    background-image: linear-gradient(to top right, transparent 30%, rgba(256, 280, 0, 685) 50%);
+    color:white;
+    background-size: 200% 200%;
+    transition: background-position 0.8s ease-out;
+  }
+  
+  .button-gradient:hover {
+    background-position: bottom right;
+  }

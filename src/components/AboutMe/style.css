@@ -1,0 +1,67 @@
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate-circle {
+    animation: rotate 10s linear infinite;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0;
+}
+
+.circle {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background: radial-gradient(circle, yellow, yellow, yellow, transparent 70%);
+}
+
+.icon {
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.top-icon {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-icon {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.left-icon {
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.right-icon {
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+#bgimage2 {
+    background-image: url('../assets//img.jpeg.png');
+    background-size: cover; /* This makes sure the image covers the entire element */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+     /* This ensures the background covers the full height of the viewport */
+         border-radius: 50%; /* Makes the image oval */
+  }
+  

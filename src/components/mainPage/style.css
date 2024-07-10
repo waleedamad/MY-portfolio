@@ -1,0 +1,39 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  } */
+  
+  #bgimage {
+    background-image: url('../assets/img.jpeg.png'); /* Adjust the path as necessary */
+    background-size: cover; /* This makes sure the image covers the entire element */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+
+  }
+  /* style.css */
+  /* style.css */
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .min-h-screen {
+    max-width: 100%; /* Ensure content does not exceed viewport width */
+  }
+  
+.button-gradient:hover {
+    background-image: linear-gradient(to top right, transparent 30%, rgba(256, 280, 0, 685) 50%);
+    color:white;
+    background-size: 200% 200%;
+    transition: background-position 0.8s ease-out;
+  }
+  
+  .button-gradient:hover {
+    background-position: bottom right;
+  }
+  
+  
+  
+  
+  

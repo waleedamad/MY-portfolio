@@ -1,0 +1,38 @@
+#project1 {
+    background-image: url('../assets/spotify.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px; /* Adjust height as needed */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+#project2 {
+    background-image: url('../assets/gym.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px; /* Adjust height as needed */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+#project3 {
+    background-image: url('../assets/persian.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px; /* Adjust height as needed */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+#project4 {
+    background-image: url('../assets/htmlcss.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px; /* Adjust height as needed */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+#project5 {
+    background-image: url('../assets/weather.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 200px; /* Adjust height as needed */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
