@@ -68,7 +68,7 @@ function AboutMe() {
             {
                 scale: 1,
                 opacity: 1,
-                duration: 1,
+                duration: 1.5,
                 ease: 'elastic.out(1, 0.3)',
                 scrollTrigger: {
                     trigger: circleRef.current,
@@ -96,7 +96,7 @@ function AboutMe() {
                         I am passionate about translating complex designs into interactive and responsive user interfaces that enhance user engagement and satisfaction.
                     </p>
                 </div>
-                <div ref={circleRef} id='bgimage2' className='md:w-64 md:h-80 w-60 h-72 mx-auto shadow-md shadow-white md:me-52 md:ms-32 mt-6 hover:scale-125 hover:transition ease-out duration-500  ' ></div>
+                <div ref={circleRef} id='bgimage2' className='md:w-64 md:h-80 w-60 h-72 mx-auto shadow-md shadow-white md:me-52 md:ms-32 mt-6 hover:scale-125 hover:transition ease-out duration-500'></div>
             </div>
             <div className='mt-8'>
                 <p className='text-yellow-500 font-serif font-bold text-xl md:text-2xl'>Personal Information</p>
@@ -111,7 +111,7 @@ function AboutMe() {
                     </div>
                     <div className='text-white font-serif mb-4'>
                         <span className='font-bold text-lg md:text-xl'>Qualification:</span>
-                        <span className='ml-3'> BSCS (7th Semester)</span>
+                        <span className='ml-3'>BSCS (7th Semester)</span>
                     </div>
                     <div className='text-white font-serif mb-4'>
                         <span className='font-bold text-lg md:text-xl'>Email:</span>

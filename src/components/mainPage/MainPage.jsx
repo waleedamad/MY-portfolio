@@ -5,7 +5,6 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import { Link } from 'react-router-dom';
 
 function MainPage() {
   const bgImgRef = useRef();
@@ -40,11 +39,11 @@ function MainPage() {
               My Resume
             </button>
           </a>
-          <Link to='/contact'>
+          <a href="https://wa.me/03117248123" target='_blank' rel='noopener noreferrer'>
             <button className='border border-yellow-500 md:px-10 p-2 rounded font-serif button-gradient hover:text-black hover:transition ease-out duration-500 text-white ms-1'>
               Contact Me
             </button>
-          </Link>
+          </a>
         </div>
         <div ref={iconsRef} className='flex justify-center mt-5 space-x-4 relative'>
           <a href="https://www.instagram.com/waleedahmad4942?igsh=MWxjNTF0ZWhocjlzcA==" target='_blank' rel='noopener noreferrer'><InstagramIcon className='text-white hover:transition ease-out duration-500 hover:text-yellow-500' /></a>
